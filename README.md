@@ -21,7 +21,13 @@ In case of Jenkinsfile.xml, download jenkins-cli.jar and run in the command line
 
 `java -jar jenkins-cli.jar -s <Jenkins URL (IP:PORT)> create-job Spring-PetClinic < Jenkinsfile.xml`
 
-docker run -it --rm -p 8080:8080/tcp -p 8080:8080/udp spring-petclinic:latest
+## Create a docker image
+Build the Spring-PetClinic job in Jenkins.
 
-docker load -i spring-petclinic-docker-image.tar
-## 
+When job done, run in the command line:
+
+`docker run -it --rm -p 8080:8080/tcp -p 8080:8080/udp spring-petclinic:latest`
+
+You can then access petclinic here: http://localhost:8080
+
+## docker load -i spring-petclinic-docker-image.tar
