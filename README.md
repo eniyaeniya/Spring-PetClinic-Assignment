@@ -8,7 +8,9 @@ The tasks of the assignment are as follow:
 2. Create a repository which contains: Jenkins file, Docker file and instructions for use them.
 
 ## Preparations
-Clone the repository by run in the command line: `git clone https://github.com/eniyaeniya/Spring-PetClinic-Assignment.git`
+Clone the repository by run in the command line:
+
+`git clone https://github.com/eniyaeniya/Spring-PetClinic-Assignment.git`
 
 The folder Spring-PetClinic-Assignment contains the following files:
 1. Dockerfile for creating the docker image.
@@ -19,4 +21,7 @@ In case of Jenkinsfile.xml, download jenkins-cli.jar and run in the command line
 
 `java -jar jenkins-cli.jar -s <Jenkins URL (IP:PORT)> create-job Spring-PetClinic < Jenkinsfile.xml`
 
+docker run -it --rm -p 8080:8080/tcp -p 8080:8080/udp spring-petclinic:latest
+
+docker load -i spring-petclinic-docker-image.tar
 ## 
