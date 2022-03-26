@@ -36,7 +36,7 @@ Then access Spring PetClinic: http://localhost:8080
 ## Run a prepared runable docker image
 Download spring-petclinic-docker-image.zip from the link:
 
-https://drive.google.com/file/d/1VGlurQwVq3eGvORYJDoGS-U8n-QRJWRp/view?usp=sharing
+`Not available anymore.`
 
 Extract the spring-petclinic-docker-image.tar from the zip.
 
